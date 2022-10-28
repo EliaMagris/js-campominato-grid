@@ -1,0 +1,21 @@
+*{
+    padding:  0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+  height: 100vh; 
+  background-color: rgb(147, 229, 158);
+}
+
+.quadrati{
+    width: calc(100% / 10);
+    border: 1px solid black;
+    aspect-ratio: 1 / 1;
+}
+
+.active{
+    background-color: rgb(38, 38, 114);
+}
+

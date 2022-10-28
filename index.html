@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Griglia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header  class="bg-white d-flex justify-content-between p-3 align-items-center">
+        <div><h1>CAMPO MINATO</h1></div>
+        <div><button class="p-1 btn btn-dark"  onclick="startGame();">Genera</button></div>
+    </header>
+    <main>
+        <div id="griglia" class="d-flex justify-content-center flex-wrap"></div>
+    </main>
+    <footer></footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="assets/main.js"></script>
+</body>
+</html>
+
+
+<!-- Consegna
+L'utente clicca su un bottone che genererà una griglia di gioco quadrata.
+Ogni cella ha un numero progressivo, da 1 a 100.
+Ci saranno quindi 10 caselle per ognuna delle 10 righe.
+Quando l'utente clicca su ogni cella, la cella cliccata si colora di azzurro ed emetto un messaggio in console con il numero della cella cliccata.
+Bonus
+Aggiungere una select accanto al bottone di generazione, che fornisca una scelta tra tre diversi livelli di difficoltà:
+- con difficoltà 1 => 100 caselle, con un numero compreso tra 1 e 100, divise in 10 caselle per 10 righe;
+- con difficoltà 2 => 81 caselle, con un numero compreso tra 1 e 81, divise in 9 caselle per 9 righe;
+- con difficoltà 3 => 49 caselle, con un numero compreso tra 1 e 49, divise in 7 caselle per 7 righe;
+Consigli del giorno:  :party_wizard:
+Scriviamo prima cosa vogliamo fare passo passo in italiano, dividiamo il lavoro in micro problemi. -->
