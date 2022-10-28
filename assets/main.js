@@ -1,8 +1,10 @@
-function startGame(){
+function startGame(){ 
+
+    const Number = document.getElementById("gameMod").value;
+
     const griglia = document.getElementById("griglia");
     
-    console.log(griglia);
-
+    griglia.innerHTML ="";
 
     function GridElement(){
       let item = document.createElement('div');
@@ -11,14 +13,22 @@ function startGame(){
     }
     
 
-    for(let i = 0; i < 100; i++){
+    for(let i = 0; i < Number; i++) {
+        
         let quadrato = GridElement()
+        
+        
 
         quadrato.addEventListener('click', function(){
+            console.log(this);
             this.classList.toggle('active');
+        })
 
-        } )
-    griglia.append(quadrato)
+        quadrato.innerText = i + 1;
+        console.log(quadrato)
+
+        griglia.append(quadrato)
     }
     
 }
+

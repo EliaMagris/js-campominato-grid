@@ -9,13 +9,23 @@ body{
   background-color: rgb(147, 229, 158);
 }
 
+#griglia{
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+
 .quadrati{
     width: calc(100% / 10);
     border: 1px solid black;
     aspect-ratio: 1 / 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .active{
     background-color: rgb(38, 38, 114);
+    color: white;
 }
 

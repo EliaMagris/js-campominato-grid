@@ -12,6 +12,11 @@
     <header  class="bg-white d-flex justify-content-between p-3 align-items-center">
         <div><h1>CAMPO MINATO</h1></div>
         <div><button class="p-1 btn btn-dark"  onclick="startGame();">Genera</button></div>
+        <select id="gameMod">
+            <option value="100" selected>Easy</option>
+            <option value="81">Normal</option>
+            <option value="49">Hard</option>
+        </select>
     </header>
     <main>
         <div id="griglia" class="d-flex justify-content-center flex-wrap"></div>
