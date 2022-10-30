@@ -9,19 +9,42 @@ body{
   background-color: rgb(147, 229, 158);
 }
 
-#griglia{
-    width: 50%;
-    margin: auto;
-    margin-top: 20px;
+header{
+    height: 10%;
 }
 
-.quadrati{
-    width: calc(100% / 10);
+main{
+    height: 80%;
+}
+
+footer{
+    height: 10%;
+}
+
+#griglia{
+    width: 40%;
+    margin: auto;
+    height: 100%;
+}
+
+.quadratobase{
     border: 1px solid black;
     aspect-ratio: 1 / 1;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.quadrati{
+    width: calc(100% / 10);  
+}
+
+.quadrati2{
+    width: calc(100% / 9);
+}
+
+.quadrati3{
+    width: calc(100% / 7);
 }
 
 .active{
